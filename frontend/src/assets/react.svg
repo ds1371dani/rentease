@@ -1,0 +1,44 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 100 100"
+        width="200"
+        height="200"
+>
+    <!-- House Icon -->
+    <polygon
+            points="20,50 50,20 80,50"
+            fill="#007BFF"
+            stroke="#0056b3"
+            stroke-width="2"
+    />
+    <rect x="35" y="50" width="30" height="30" fill="#007BFF" stroke="#0056b3" stroke-width="2" />
+
+    <!-- Calendar Icon -->
+    <rect
+            x="60"
+            y="10"
+            width="30"
+            height="25"
+            fill="white"
+            stroke="#0056b3"
+            stroke-width="2"
+            rx="3"
+    />
+    <line x1="65" y1="20" x2="85" y2="20" stroke="#0056b3" stroke-width="1.5" />
+    <line x1="65" y1="25" x2="85" y2="25" stroke="#0056b3" stroke-width="1.5" />
+    <circle cx="70" cy="30" r="1.5" fill="#0056b3" />
+    <circle cx="80" cy="30" r="1.5" fill="#0056b3" />
+
+    <!-- Application Name -->
+    <text
+            x="50"
+            y="90"
+            text-anchor="middle"
+            font-family="Arial, sans-serif"
+            font-size="10"
+            fill="#333"
+    >
+        RentEase
+    </text>
+</svg>
