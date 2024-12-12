@@ -27,3 +27,30 @@ function App() {
 }
 
 export default App;
+
+import React from 'react';
+import axios from 'axios';
+
+function App() {
+  const handleClick = async () => {
+    try {
+      // Send a GET request to the Django backend
+      const response = await axios.get('https://rentease-back.liara.run/api/');
+      // Log the response data
+      console.log(response.data);
+      alert(response.data.message);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      alert('Failed to fetch data from the server.');
+    }
+  };
+
+  return (
+    <div style={{ padding: '20px' }}>
+      <h1>React-Django Integration</h1>
+      <button onClick={handleClick}>Fetch Data</button>
+    </div>
+  );
+}
+
+export default App;
